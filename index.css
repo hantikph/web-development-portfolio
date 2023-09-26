@@ -9,3 +9,10 @@
 body {
     font-family: 'Kanit', sans-serif;
 }
+
+/*Carousel Image Sizing*/
+
+.carousel-img {
+    max-height: 75vh;
+    object-fit: scale-down;
+}
