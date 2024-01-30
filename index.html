@@ -74,12 +74,12 @@
 		<!-- Profile Section Start -->
 		<div id="landing" class="container-fluid text-light min-vh-100 p-3 p-md-5 mt-5">
 
-			<img class="mt-3 mt-md-0 rounded-circle" src="./images/me.jpg" width="250">
-				
-			<h1>Charles Raymund Jose Mijares</h1>
-			<h3>Software Developer</h3>		
-				
-			<div class="row mt-5">
+			<div class="row row-cols row-cols-md-4">				
+				<div class="offset-md-2 col-md-8">
+					<img class="mt-3 mt-md-0 rounded mx-auto d-block" src="./images/me.jpg" width="250">
+					<h1>Charles Raymund Jose Mijares</h1>
+					<h3>Software Developer</h3>
+				</div>			
 				<div class="offset-md-2 col-md-8">
 					<p class="mb-3"><b>Hello World!</b> It is a pleasure to give you a glimpse of my journey as a software developer. I am a career shifter from production management realizing my early life desire to become an application and game developer. I bring with me my rich experience from work in:</p>
 					<ul class="m-3 p-2 list-group list-group-horizontal justify-content-center align-items-center">
@@ -96,46 +96,56 @@
 		<!-- Projects Section Start -->
 		<div id="projects" class="container-fluid text-center text-light align-items-center p-2 p-md-3">
 			<h2>My Projects</h2>
-			<div id="carouselExampleDark" class="carousel carousel-dark slide col-lg-10 mx-auto vh-35" data-bs-ride="carousel">
+			<div id="carouselDark" class="carousel carousel-dark slide col-lg-10 mx-auto vh-35" data-bs-ride="carousel">
 			  <div class="carousel-indicators">
-			    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-			    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
-			    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+			    <button type="button" data-bs-target="#carouselDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+			    <button type="button" data-bs-target="#carouselDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+			    <button type="button" data-bs-target="#carouselDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+			    <button type="button" data-bs-target="#carouselDark" data-bs-slide-to="3" aria-label="Slide 4"></button>
 			  </div>
 			  <div class="carousel-inner">
-			    <div class="carousel-item active" data-bs-interval="10000">
+			    <div class="carousel-item active" data-bs-interval="7500">
 			      <img src="./images/web-design.png" class="img-fluid w-100 carousel-img" alt="Web Designing">
 			      <a href="#" class="btn btn-light border-primary mb-5 d-md-none">Front-end Development</a>
 			      <div class="carousel-caption d-none d-md-block bg-info overflow-auto opacity-75">
 			        <h5>Web Designing</h5>
-			        <p>Web design encompasses many different skills and disciplines in the production and maintenance of websites. The different areas of web design include web graphic design; user interface design; authoring, including standardised code and proprietary software; user experience design; and search engine optimization. -Wikipedia-</p>
+			        <p>Web design encompasses many different skills and disciplines in the production and maintenance of websites.Static websites often use HTML, CSS and frameworks like Bootstrap to control elements on a web page.</p>
 			        <a href="#" class="btn btn-light border-primary">Web Designing</a>
 			      </div>
 			    </div>
-			    <div class="carousel-item" data-bs-interval="2000">
-			      <img src="./images/e-commerce.png" class="img-fluid w-100 carousel-img" alt="...">
+			    <div class="carousel-item" data-bs-interval="7500">
+			      <img src="./images/e-commerce.png" class="img-fluid w-100 carousel-img" alt="E-commerce">
 			      <a href="https://e-commerce-csp3.vercel.app/" class="btn btn-light border-primary mb-5 d-md-none">E-Commerce Website</a>
 			      <div class="carousel-caption d-none d-md-block bg-info overflow-auto opacity-75">
 			        <h5>E-Commerce Website</h5>
-			        <p>E-commerce (electronic commerce) is the activity of electronically buying or selling products on online services or over the Internet. E-commerce draws on technologies such as mobile commerce, online transaction processing, electronic data interchange (EDI) and automated data collection systems to name a few. -Wikipedia-</p>
+			        <p>E-commerce (electronic commerce) is the activity of electronically buying or selling products on online services or over the Internet. E-commerce draws on frontend (the shopping site) and the backend (shopping API) to give a dynamic user experience.</p>
 			         <a href="https://e-commerce-csp3.vercel.app" class="btn btn-light border-primary">E-Commerce Website</a>
 			      </div>
 			    </div>
-			    <div class="carousel-item">
+			    <div class="carousel-item" data-bs-interval="7500">
 			      <img src="./images/api-e-comm.png" class="img-fluid w-100 carousel-img" height="320" alt="...">
 			      <a href="#" class="btn btn-light border-primary mb-5 d-md-none">E-Commerce API</a>
 			      <div class="carousel-caption d-none d-md-block bg-info overflow-auto opacity-75">
 			        <h5>E-Commerce API</h5>
-			        <p>APIs, or application programming interfaces, enable one application (such as your ecommerce platform) to expose services (such as catalog content, order management, pricing information and customer data) to other applications. Simply speaking, an API helps systems “talk” to each other. -Bigcommerce.com-</p>
+			        <p>APIs, or application programming interfaces, enable one application (such as your ecommerce platform) to expose services (like product lists, shopping carts, and user data) to other applications. The API is the bridge for frontend data and backend data processing and storage.</p>
 			        <a href="#" class="btn btn-light border-primary">E-Commerce API</a>
 			      </div>
 			    </div>
+			    <div class="carousel-item" data-bs-interval="7500">
+			      <img src="./images/logo-javascript.png" class="img-fluid w-100 carousel-img" height="320" alt="...">
+			      <a href="https://hantikph.github.io/game-lab/js-coin-game/" class="btn btn-light border-primary mb-5 d-md-none">JavaScript Game</a>
+			      <div class="carousel-caption d-none d-md-block bg-info overflow-auto opacity-75">
+			        <h5>JavaScript Game</h5>
+			        <p>JavaScript has given HTML/CSS based web pages some dynamic processing. Although, strictly client-based, interactive pages can be designed!</p>
+			        <a href="https://hantikph.github.io/game-lab/js-coin-game/" class="btn btn-light border-primary">JavaScript Game</a>
+			      </div>
+			    </div>
 			  </div>
-			  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+			  <button class="carousel-control-prev" type="button" data-bs-target="#carouselDark" data-bs-slide="prev">
 			    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
 			    <span class="visually-hidden">Previous</span>
 			  </button>
-			  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+			  <button class="carousel-control-next" type="button" data-bs-target="#carouselDark" data-bs-slide="next">
 			    <span class="carousel-control-next-icon" aria-hidden="true"></span>
 			    <span class="visually-hidden">Next</span>
 			  </button>
