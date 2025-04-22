@@ -1,13 +1,15 @@
 <!DOCTYPE html>
 <html>
+	<!-- home.html = portfolio landing page revisions as of 20250304 -->
 <head>
 	<meta charset="utf-8">
 
 	<!-- Mobile Responsive Meta Tag -->
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-	<!-- Bootstrap Link -->
+	<!-- Bootstrap Functionality -->
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous" defer></script>
 
 	<!-- Google Font -->
 	<link rel="preconnect" href="https://fonts.googleapis.com">
@@ -15,336 +17,205 @@
 	<link href="https://fonts.googleapis.com/css2?family=Kanit&display=swap" rel="stylesheet">
 
 	<!-- External CSS Link -->
-	<link rel="stylesheet" type="text/css" href="./index.css">
+	<link rel="stylesheet" type="text/css" href="./styles.css">
 
-	<!-- Bootstrap JS Script -->
-	<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous" defer></script>
-	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous" defer></script>
-	<!-- <script charset="utf-8" type="text/javascript" src="//js-eu1.hsforms.net/forms/embed/v2.js"></script>
-	<script>
-	  hbspt.forms.create({
-	    region: "eu1",
-	    portalId: "144030622",
-	    formId: "e61fb570-dacc-496e-a69e-adeed48b00b6"
-	  });
-	</script> -->
-
-	<title>Developer Portfolio - Charles Raymund Mijares</title>
+	<title>&#128640; Developer Portfolio - Charles Raymund Mijares</title>
 </head>
-<!-- Start of HubSpot Embed Code -->
-<script type="text/javascript" id="hs-script-loader" async defer src="//js-eu1.hs-scripts.com/144030622.js"></script>
-<!-- End of HubSpot Embed Code -->
 <body class="bg-dark">
 
 	<!-- Navbar Section Start -->
-	<nav class="navbar navbar-expand-lg fixed-top navbar-light bg-secondary p-2">
-	  <div class="container-fluid">
-	    <a class="navbar-brand" href="#landing">Charles Raymund</a>
-	    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+	<nav class="navbar navbar-expand-lg fixed-top navbar-light bg-secondary">
+	<div class="container-fluid">
+	    <a class="navbar-brand" href="#"><i>&#128640;</i> Charles Raymund</a>
+	    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 	      <span class="navbar-toggler-icon"></span>
 	    </button>
-	    <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-	      <ul class="navbar-nav ms-auto my-2 my-lg-0 nav-pills nav-fill">
-	        <li class="nav-item">
-	          <a class="nav-link active" aria-current="page" href="#landing">About Me</a>
-	        </li>
-	        <li class="nav-item">
-	          <a class="nav-link" href="#projects">Projects</a>
-	        </li>
-	        <li class="nav-item">
-	          <a class="nav-link" href="#tools">Tools</a>
-	        </li>
-	        <li class="nav-item">
-	          <a class="nav-link" href="#contact">Contact</a>
-	        </li>
-	      </ul>
-
-	      <!-- <form class="d-flex" role="search">
-	        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-	        <button class="btn btn-outline-warning" type="submit">Search</button>
-	      </form> -->
+	    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+	     	<ul class="navbar-nav justify-content-end">
+	    		<li class="nav-item">
+	    			<a class="nav-link" aria-current="true" href="#about-me">About Me</a>
+	    		</li>
+	        	<li class="nav-item">
+	          		<a class="nav-link" href="#projects">Projects</a>
+	        	</li>
+	        	<li class="nav-item">
+	        		<a class="nav-link" href="#tools">Tools</a>
+	        	</li>
+	        	<li class="nav-item">
+	        		<a class="nav-link" href="#contact">Contact</a>
+	        	</li>
+	        	<li class="nav-item">
+	        		<a class="nav-link" href="https://www.linkedin.com/in/charles-raymund-jose-mijares/">LinkedIn</a>
+	        	</li>
+	    	</ul>
 	    </div>
-	  </div>
+	</div>
 	</nav>
 	<!-- Navbar Section End -->
-
-	<!-- Main Content Section Start -->
-	<div class="container-fluid text-center">
-
-		<!-- Profile Section Start -->
-		<div id="landing" class="container-fluid text-light min-vh-100 p-3 p-md-5 mt-5">
-
-			<div class="row row-cols row-cols-md-4">				
-				<div class="offset-md-2 col-md-8">
-					<img class="mt-3 mt-md-0 rounded mx-auto d-block" src="./images/me.jpg" width="250">
-					<h1>Charles Raymund Jose Mijares</h1>
-					<h3>Software Developer</h3>
-				</div>			
-				<div class="offset-md-2 col-md-8">
-					<p class="mb-3"><b>Hello World!</b> It is a pleasure to give you a glimpse of my journey as a software developer. I am a career shifter from production management realizing my early life desire to become an application and game developer. I bring with me my rich experience from work in:</p>
-					<ul class="m-3 p-2 list-group list-group-horizontal justify-content-center align-items-center">
-						<li class="list-group-item">garments and animation production</li>
-						<li class="list-group-item">logistics and project management</li>
-						<li class="list-group-item">business process outsourcing</li>
+	<!-- Content Section Start -->
+	<div class="container-md mt-5">
+		<section class="row row-cols-lg-2 py-3">
+			<div class="col col-md">
+				<h1 class="text-warning display-2">
+				Hello!<br/>
+				I am Charles,<br/>
+				Web developer
+				</h1>
+				<p class="text-light display-6">Let's turn your ideas into Projects</p>
+				<a class="btn btn-success text-light" href="#projects">See Projects</a>
+			</div>
+			<div class="clearfix">
+				<img class="col col-md img-fluid rounded float-lg-end d-block-sm p-2" src="https://images.unsplash.com/photo-1495592822108-9e6261896da8?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Unsplash image here">
+			</div>
+		</section>
+		<section class="container bg-secondary p-2" id="about-me">
+			<h2 class="text-warning">About Me</h2>
+			<div class="row row-cols-2 justify-content-center py-3">
+				<div class="col col-lg-7 p-3 justify-content-end d-block">	
+					<p class="text-light">I am a skilled <em>full-stack developer</em>, I appreciate the utility of the Django framework, and its integration with Python backend technologies. I look towards Python-Django for improved software development flexibility. I bring with me the experience from production management, business process outsourcing, and time-critical decision making in rescue and disaster risk management. Realizing professional engagement in application and game development, I infuse my rich experience into my work as a software developer.
+					<p class="text-light">Let us enjoy our journey of technology development and life long learning in the world of software engineering!</p>
+					<h4 class="text-warning">Familiar Software Development Concepts:</h3>
+					<ul class="list-unstyled text-light">
+						<li>RESTful API</li>
+						<li>Developer Frameworks</li>
+						<li>DRY & SOLID Coding Principles</li>
+						<li>Iterative and Agile SDLC</li>
+						<li>Test driven development</li>
 					</ul>
-					<p class="mb-3">Let us enjoy our journey for life long learning in the world of software development!</p>
 				</div>
+				<div class="col col-lg-5 p-2 justify-content-start"><img class="rounded-circle mx-auto d-block" src="https://media.licdn.com/dms/image/v2/D5603AQE6nvTBYNqIlQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1696550556430?e=1746662400&v=beta&t=TDtP3NGLLOKk20ByVdUrv35NBW5dTucw3TSy8l4J_Hs" style="height:45vh;"/>
+				</div>	
 			</div>
-		</div>
-		<!-- Profile Section End -->
+		</section>
+		<section class="container p-2" id="projects">
+			<h2 class="text-warning">Projects</h2>
+			<p class="text-light">Projects to date</p>
+				<div class="card-group">
+						<div class="card bg-dark text-light text-end">
+							<img src="https://images.unsplash.com/photo-1502945015378-0e284ca1a5be?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="card-img opacity-0" />
+						</div>
+						<div class="card bg-dark text-light text-end">
+							<img src="https://images.unsplash.com/photo-1502945015378-0e284ca1a5be?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="card-img img-fluid img-thumbnail opacity-50" alt="w3spaces website">
+							<div class="card-img-overlay">
+							    <h5 class="card-title">Portfolio Project</h5>
+							    <p class="card-text d-none d-lg-block">The developer's online project portfolio. He continues learning web application development through online resources.</p>
+							    <a href="https://camijares.w3spaces.com/" class="btn btn-secondary">Visit Link</a>
+							</div>
+							<div class="card-footer">
+							<br />
+							</div>
+						</div>
+						<div class="card bg-dark text-light text-end">
+							<img src="https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="card-img img-fluid img-thumbnail opacity-100" alt="Shopping Cart API Capstone">
+							<div class="card-img-overlay">
+							    <h5 class="card-title">Cart API Capstone</h5>
+							    <p class="card-text d-none d-lg-block">The Shopping Cart API was the culminating activity for the design and deployment of Node.js and Express.js API.</p>
+								<a href="https://gitlab.com/zuitt8352035/capstone2/tree/main" class="btn btn-secondary">Visit Link</a>
+							</div>
+							<div class="card-footer">
+							<br />
+							</div>
+						</div>
+						<div class="card bg-dark text-light text-end">
+							<img src="https://images.unsplash.com/photo-1605902711622-cfb43c4437b5?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8ZWNvbW1lcmNlfGVufDB8fDB8fHww" class="card-img img-fluid img-thumbnail opacity-50" alt="E-commerce Storefront Capstone">
+							<div class="card-img-overlay">
+							    <h5 class="card-title"> Storefront Capstone</h5>
+							    <p class="card-text d-none d-lg-block">A full-stack deployment on the MERN tech stack. Powered by the Cart API backend thru React deployed on Render and Vercel.</p>
+								<a class="btn btn-secondary mt-auto" href="https://e-commerce-csp3.vercel.app/">Visit Link</a>
+							</div>
+							<div class="card-footer">
+							<br />
+							</div>
+						</div>
+				</div>
+				<div class="card-group">
+						<div class="card bg-dark text-light text-end">
+							<img src="https://images.unsplash.com/photo-1542831371-29b0f74f9713?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cHJvZ3JhbW1pbmd8ZW58MHx8MHx8fDA%3D" class="card-img img-fluid opacity-50" alt="Portfolio Capstone">
+							<div class="card-img-overlay">
+							    <h5 class="card-title">JS OOP Practice</h5>
+							    <p class="card-text d-none d-lg-block">OOP concepts applied using HTML, CSS, and JavaScript: Introduction for game development.</p>
+								<a href="https://hantikph.github.io/game-lab/js-coin-game/" class="btn btn-secondary">Visit Link</a>
+							</div>
+							<div class="card-footer">
+							<br />
+							</div>
+						</div>
+						<div class="card bg-dark text-light text-end">
+							<img src="https://images.unsplash.com/photo-1605379399642-870262d3d051?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8cHJvZ3JhbW1pbmd8ZW58MHx8MHx8fDA%3D" class="card-img img-fluid opacity-50" alt="More in process...">
+							<div class="card-img-overlay">
+							    <h5 class="card-title">More in process...</h5>
+							    <p class="card-text d-none d-lg-block">Looking forward to publishing the projects under development.</p>
+								<a href="#" class="btn btn-secondary">Back to top</a>
+							</div>
+							<div class="card-footer">
+							<br />
+							</div>
+						</div>
+						<div class="card bg-dark text-light text-end">
+							<img src="https://images.unsplash.com/photo-1502945015378-0e284ca1a5be?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="card-img opacity-0" />
+						</div>
+						<div class="card bg-dark text-light text-end">
+							<img src="https://images.unsplash.com/photo-1502945015378-0e284ca1a5be?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="card-img opacity-0" />
+						</div>
+				</div>
+		</section>
 
-		<!-- Projects Section Start -->
-		<div id="projects" class="container-fluid text-center text-light align-items-center p-2 p-md-3">
-			<h2>My Projects</h2>
-			<div id="carouselDark" class="carousel carousel-dark slide col-lg-10 mx-auto vh-35" data-bs-ride="carousel">
-			  <div class="carousel-indicators">
-			    <button type="button" data-bs-target="#carouselDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-			    <button type="button" data-bs-target="#carouselDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
-			    <button type="button" data-bs-target="#carouselDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
-			    <button type="button" data-bs-target="#carouselDark" data-bs-slide-to="3" aria-label="Slide 4"></button>
-			  </div>
-			  <div class="carousel-inner">
-			    <div class="carousel-item active" data-bs-interval="7500">
-			      <img src="./images/web-design.png" class="img-fluid w-100 carousel-img" alt="Web Designing">
-			      <a href="#" class="btn btn-light border-primary mb-5 d-md-none">Front-end Development</a>
-			      <div class="carousel-caption d-none d-md-block bg-info overflow-auto opacity-75">
-			        <h5>Web Designing</h5>
-			        <p>Web design encompasses many different skills and disciplines in the production and maintenance of websites.Static websites often use HTML, CSS and frameworks like Bootstrap to control elements on a web page.</p>
-			        <a href="#" class="btn btn-light border-primary">Web Designing</a>
-			      </div>
-			    </div>
-			    <div class="carousel-item" data-bs-interval="7500">
-			      <img src="./images/e-commerce.png" class="img-fluid w-100 carousel-img" alt="E-commerce">
-			      <a href="https://e-commerce-csp3.vercel.app/" class="btn btn-light border-primary mb-5 d-md-none">E-Commerce Website</a>
-			      <div class="carousel-caption d-none d-md-block bg-info overflow-auto opacity-75">
-			        <h5>E-Commerce Website</h5>
-			        <p>E-commerce (electronic commerce) is the activity of electronically buying or selling products on online services or over the Internet. E-commerce draws on frontend (the shopping site) and the backend (shopping API) to give a dynamic user experience.</p>
-			         <a href="https://e-commerce-csp3.vercel.app" class="btn btn-light border-primary">E-Commerce Website</a>
-			      </div>
-			    </div>
-			    <div class="carousel-item" data-bs-interval="7500">
-			      <img src="./images/api-e-comm.png" class="img-fluid w-100 carousel-img" height="320" alt="...">
-			      <a href="#" class="btn btn-light border-primary mb-5 d-md-none">E-Commerce API</a>
-			      <div class="carousel-caption d-none d-md-block bg-info overflow-auto opacity-75">
-			        <h5>E-Commerce API</h5>
-			        <p>APIs, or application programming interfaces, enable one application (such as your ecommerce platform) to expose services (like product lists, shopping carts, and user data) to other applications. The API is the bridge for frontend data and backend data processing and storage.</p>
-			        <a href="#" class="btn btn-light border-primary">E-Commerce API</a>
-			      </div>
-			    </div>
-			    <div class="carousel-item" data-bs-interval="7500">
-			      <img src="./images/logo-javascript.png" class="img-fluid w-100 carousel-img" height="320" alt="...">
-			      <a href="https://hantikph.github.io/game-lab/js-coin-game/" class="btn btn-light border-primary mb-5 d-md-none">JavaScript Game</a>
-			      <div class="carousel-caption d-none d-md-block bg-info overflow-auto opacity-75">
-			        <h5>JavaScript Game</h5>
-			        <p>JavaScript has given HTML/CSS based web pages some dynamic processing. Although, strictly client-based, interactive pages can be designed!</p>
-			        <a href="https://hantikph.github.io/game-lab/js-coin-game/" class="btn btn-light border-primary">JavaScript Game</a>
-			      </div>
-			    </div>
-			  </div>
-			  <button class="carousel-control-prev" type="button" data-bs-target="#carouselDark" data-bs-slide="prev">
-			    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-			    <span class="visually-hidden">Previous</span>
-			  </button>
-			  <button class="carousel-control-next" type="button" data-bs-target="#carouselDark" data-bs-slide="next">
-			    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-			    <span class="visually-hidden">Next</span>
-			  </button>
-			</div>
-		</div>
-		<!-- Projects Section End -->
-
-		<!-- Tools Section Start -->
-		<div id="tools" class="container-fluid">
-			<div class="my-3 p-2 p-md-3 bg-secondary">
-				<h2 class="mb-3">Tools in Development</h2>
-				<div class="row row-cols-1 row-cols-md-4">
-				  <div class="col col-md-4">
-				    <div class="card p-3">
+		<section class="container justify-content-center p-2" id="tools">
+			<h2 class="text-warning">Tools</h2>
+			<p class="text-light">Developer tools and technologies</p>
+				<div class="card-deck d-flex mx-auto">
+				    <div class="card p-2 m-2">
 				      <div class="card-body bg-secondary">
 				        <h5 class="card-title text-light">Front End</h5>
 				        <div class="d-grid">
 				        	<div id="core-tools" class="d-flex flex-column">
 				        	    <div id="html" class="d-flex justify-content-center flex-wrap align-items-center">
-				        	        <img width="150" src="images/logo-html5.png"/>
-				        	        <img width="150" src="images/logo-css3.png"/>
-				        	        <img width="150" src="images/logo-bootstrap.png"/>
-				        	        <img width="150" src="images/logo-javascript.png"/>
+				        	        <img width="150" src="./images/logo-html5.png"/>
+				        	        <img width="150" src="./images/logo-css3.png"/>
+				        	        <img width="150" src="./images/logo-bootstrap.png"/>
+				        	        <img width="150" src="./images/logo-javascript.png"/>
 				        	    </div>
 				        	</div>	
 				        </div>
 				        <p class="card-text">HTML 5, CSS 3, Bootstrap, and JavaScript for Front End Development.</p>
-				        <!-- <a href="#" class="btn btn-light">Project Link</a> -->
 				      </div>
 				    </div>
-				  </div>
-				  <div class="col col-md-4">
-				    <div class="card p-3">
+				    <div class="card p-2 m-2">
 				      <div class="card-body">
 				        <h5 class="card-title">MERN Stack</h5>
 				        <div id="tools-1" class="d-flex justify-content-center flex-wrap align-items-center">
-				        	    <img width="150" src="images/logo-mongodb.png"/>	        	    
-				        	    <img width="150" src="images/logo-expressjs.png"/>
-				        	    <img width="150" src="images/logo-react.png"/>
-				        	    <img width="150" src="images/logo-nodejs.png"/>	        	    
+				        	    <img width="150" src="./images/logo-mongodb.png"/>  
+				        	    <img width="150" src="./images/logo-expressjs.png"/>
+				        	    <img width="150" src="./images/logo-react.png"/>
+				        	    <img width="150" src="./images/logo-nodejs.png"/>   
 				        	</div>
 				        <p class="card-text">MongoDB, Express JS, React, and Node JS to manage the Backend.</p>
-				        <!-- <a href="#" class="btn btn-primary">Project Link</a> -->
 				      </div>
 				    </div>
-				  </div>
-				  <div class="col col-md-4">
-				    <div class="card p-3">
+				    <div class="card p-2 m-2">
 				      <div class="card-body bg-secondary">
 				        <h5 class="card-title text-light">Industry Tools</h5>
 				        <div id="tools-2" class="d-flex justify-content-center flex-wrap align-items-center">
-                        	<img width="150" src="images/aws-logo-600.png"/>
-                        	<img width="150" src="images/logo-git.png"/>
-                        	<img width="150" src="images/logo-postman.png"/>
-                        	<img width="150" src="images/logo-sublime-text-3.png"/>              	
+                        	<img width="150" src="./images/aws-logo-600.png"/>
+                        	<img width="150" src="./images/logo-git.png"/>
+                        	<img width="150" src="./images/logo-postman.png"/>
+                        	<img width="150" src="./images/logo-sublime-text-3.png"/>              	
                    		</div>
 				        <p class="card-text">Other Tools like AWS, Git, Postman, and Sublime Text to develop and deploy content.</p>
 				        <!-- <a href="#" class="btn btn-light">Project Link</a> -->
-				      </div>
-				    </div>
-				  </div>
-				</div>
-				
-			</div>
-		</div>
-		<!-- Tools Section End -->
-
-		<!-- Contact Form Section Start -->
-		<div id="contact" class="container-fluid row row-md-col">
-			<h2 class="p-3 p-md-5 mt-5 text-light">Contact</h2>
-				<div class="flex-row text-center min-vh-50">
-					<ul class="d-flex justify-content-center list-unstyled">
-						<li class="col-1"><a href="https://www.facebook.com/"><img src="./images/fb-logo.png" class="bg-light img-fluid rounded-4 w-50"></a></li>
-						<li class="col-1"><a href="https://www.linkedin.com/in/charles-raymund-jose-mijares"><img src="./images/linkedin-logo.jpg" class="bg-dark img-fluid rounded-4 w-50"></a></li>
-						<li class="col-1"><a href="https://github.com/"><img src="./images/github-logo.png" class="bg-light img-fluid rounded-4 w-50"></a></li>
-						<li class="col-1"><a href="https://about.gitlab.com/"><img src="./images/gitlab-logo.png" class="bg-light img-fluid rounded-4 w-50"></a></li>
-					</ul>
-				</div>
-			
-			<div class="d-flex flex-wrap align-items-center">
-			<!-- Form Start -->
-				<div class="align-self-start col-10 col-md-6 order-md-2 order-1 p-3 text-light">
-					<h4 class="text-center p-5">Message Us</h4>
-					<form action="mailto:hantikdigital@techie.com" method="get" enctype="text/plain">
-					  <div class="row mb-3">
-					    <label for="inputName" class="col-sm-3 col-form-label">Full Name</label>
-					    <div class="col col-sm-9">
-					      <input type="text" class="form-control" id="inputName" required>
-					    </div>
-					  </div>
-					  <div class="row mb-3">
-					    <label for="inputEmail" class="col-sm-3 col-form-label">Email</label>
-					    <div class=" col col-sm-9">
-					      <input type="email" class="form-control" id="inputEmail" required>
-					    </div>
-					  </div>
-					  <div class="row mb-3">
-					    <label for="inputPhone" class="col-sm-3 col-form-label">Phone</label>
-					    <div class="col col-sm-9">
-					      <input type="number" class="form-control" id="inputPhone" required>
-					    </div>
-					  </div>
-					  <!-- <fieldset class="row mb-3">
-					    <legend class="col-form-label col-sm-3 pt-0">Message Type</legend>
-					    <div class="col col-sm-9">
-					      <div class="form-check">
-					        <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
-					        <label class="form-check-label" for="gridRadios1">
-					          Inquiry
-					        </label>
-					      </div>
-					      <div class="form-check">
-					        <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2" disabled>
-					        <label class="form-check-label" for="gridRadios2">
-					          Service List (soon)
-					        </label>
-					      </div>
-					      <div class="form-check disabled">
-					        <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios3" value="option3" disabled>
-					        <label class="form-check-label" for="gridRadios3">
-					          Third disabled radio
-					        </label>
-					      </div>
-					    </div>
-					  </fieldset>
-					  <div class="row mb-3">
-					    <div class="col col-sm-9 offset-sm-3">
-					      <div class="form-check">
-					        <input class="form-check-input" type="checkbox" id="gridCheck1" required>
-					        <label class="form-check-label" for="gridCheck1">
-					          Include in Email Lists
-					        </label>
-					      </div>
-					    </div>
-					  </div> -->
-					  <div class="row mb-3">
-					    <label for="inputMessage" class="col-sm-3 col-form-label">Message</label>
-					    <div class="col col-sm-9">
-					      <textarea type="text" rows="5" class="form-control" id="inputMessage"></textarea>
-					    </div>
-					  </div>
-					  <button type="reset" class="btn btn-warning m-2">Clear Form</button>
-
-					<!-- Modal Start -->
-					<!-- Button trigger modal -->
-					<button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#exampleModal">
-					  Submit Form
-					</button>
-
-					<!-- Modal -->
-					<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-					  <div class="modal-dialog text-secondary">
-					    <div class="modal-content">
-					      <div class="modal-header">
-					        <h1 class="modal-title fs-5" id="exampleModalLabel">Confirm your message!</h1>
-					        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-					      </div>
-					      <div class="modal-body">
-					        <h3 class="text-secondary">Thank you for reaching out!</h3>
-					      </div>
-					      <div class="modal-footer">
-					        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-					        <button type="submit" class="btn btn-success" value="Send">Send Message</button>
-					      </div>
-					    </div>
-					  </div>
+				    	</div>
 					</div>
-                        <!-- Modal End -->  
-                    </form>
-					
-
 				</div>
-			<!-- Form End -->
-
-			<!-- Map Embed Start -->
-				<div class="align-self-start col-10 col-md-6 order-md-1 order-2 p-3 border-secondary">
-					<h4 class="text-center text-light p-5">Visit Us</h4>
-					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3861.705731834836!2d121.1005884!3d14.5588131!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397c7c9c7fc1001%3A0xc1f6048ee43efe78!2sPalmetto%2C%20Cainta%2C%201900%20Rizal!5e0!3m2!1sen!2sph!4v1695721025610!5m2!1sen!2sph" width="80%" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+		</section>
+		<section class="container bg-secondary text-center p-2" id="contact">
+			<h2 class="text-warning">Contact me</h2>
+			<div class="row py-3">
+				<div class="col"><a class="btn btn-success" href="https://share-eu1.hsforms.com/15h-1cNrMSW6mnq3u1IsAtg2dr2qm" role="button">Send a Message</a>
 				</div>
-			</div>	
-			
-		</div>
-		<!-- Contact Form Section End -->
-
+			</div>
+		</section>
 	</div>
-	<!-- Main Content Section End -->
-
-	<!-- Footer Section Start -->
-	<div class="container-fluid align-items-around">
-		<footer class="d-flex justify-content-center d-grid gap-2 m-2 p-3 text-white">
-		  <div class="m-1">&copy; 2023-24 CMijares</div>
-		  <div class="m-1">|</div>
-		  <div class="m-1">Capstone (1)</div>
-		  <div class="m-1">|</div>
-		  <div class="m-1">All rights reserved</div>
-		</footer>
-	</div>
-
-	<!-- Footer Section End -->
+	<!-- Content Section End -->
 
 </body>
 </html>
